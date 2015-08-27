@@ -22,12 +22,12 @@ to the convex hull of S. Draw the line pq. Change p to q as the next convex hull
 **Jarvis March Algorithm**:
 
 The Jarvis March algorithm is as follow:
+
 1. Initialize p as leftmost point
 2. Do the following while point is not the leftmost point:
-- The next point q is the point such that the triplet (p, q, r) is
-counter clockwise for any other point r in the input set
-- Store q as next of p in the output convex hull
-- Set p as q for next iteration, since q is the next convex hull point
+  - The next point q is the point such that the triplet (p, q, r) is counter clockwise for any other point r in the input set
+  - Store q as next of p in the output convex hull
+  - Set p as q for next iteration, since q is the next convex hull point
 
 
 **Executing**:
